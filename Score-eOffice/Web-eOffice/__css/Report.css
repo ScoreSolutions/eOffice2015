@@ -1,0 +1,27 @@
+/* Default CSS Stylesheet for a new Web Application project */
+
+BODY
+{
+    BACKGROUND-COLOR: white;
+    FONT-FAMILY: Verdana, Helvetica, sans-serif;
+    FONT-SIZE: .8em;
+    FONT-WEIGHT: normal;
+    LETTER-SPACING: normal;
+    TEXT-TRANSFORM: none;
+    WORD-SPACING: normal
+}
+.UnderLine {
+	FONT-WEIGHT: normal; MARGIN: 1px; COLOR: #0000ff; BORDER-TOP-STYLE: none; BORDER-BOTTOM: black 1px dashed; FONT-FAMILY: "MS Sans Serif", "Microsoft Sans Serif", Tahoma; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: 18px; TEXT-ALIGN: center
+}
+.UnderLineLeft {
+	FONT-WEIGHT: normal; MARGIN: 1px; COLOR: #0000ff; BORDER-TOP-STYLE: none; BORDER-BOTTOM: black 1px dashed; FONT-FAMILY: "MS Sans Serif", "Microsoft Sans Serif", Tahoma; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: 18px; TEXT-ALIGN: left
+}
+.formthaitext {
+	FONT-WEIGHT: bold; FONT-SIZE: 15px; COLOR: #000000; FONT-FAMILY: "MS Sans Serif", "Microsoft Sans Serif"
+}
+.textform {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana
+}
+.thaitext {
+	FONT-SIZE: 13px; COLOR: #000000; FONT-FAMILY: "MS Sans Serif", "Microsoft Sans Serif"
+}

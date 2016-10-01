@@ -1,0 +1,36 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+LinqDB
+</name>
+</assembly>
+<members>
+<member name="P:LinqDB.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:LinqDB.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:LinqDB.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:LinqDB.ConnectDB.MifareControl.Connect(System.Int16,System.Int16)">
+	<summary>
+ สั่ง Connect Mifare ถ้า Connect ได้ Return True ถ้าไม่ได้ Return False
+ </summary>
+</member><member name="M:LinqDB.ConnectDB.MifareControl.DisConnect">
+	<summary>
+ สั่ง DisConnect Mifare ถ้า DisConnect ได้ Return True ถ้าไม่ได้ Return False
+ </summary>
+</member><member name="M:LinqDB.ConnectDB.MifareControl.SelectTag">
+	<summary>
+ สั่งเชค Card ที่กำลัง Active หาก Available=False Result=สาเหตุที่อ่านไม่ได้ หาก Select ได้ Return เลข Card ID
+ </summary>
+</member>
+</members>
+</doc>

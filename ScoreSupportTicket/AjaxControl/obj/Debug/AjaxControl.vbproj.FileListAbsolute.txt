@@ -1,0 +1,17 @@
+D:\MyProject\TrackingLog\AjaxControl\bin\Debug\AjaxControl.dll
+D:\MyProject\TrackingLog\AjaxControl\bin\Debug\AjaxControl.pdb
+D:\MyProject\TrackingLog\AjaxControl\bin\Debug\AjaxControl.xml
+D:\MyProject\TrackingLog\AjaxControl\obj\Debug\ResolveAssemblyReference.cache
+D:\MyProject\TrackingLog\AjaxControl\obj\Debug\AjaxControl.Resources.resources
+D:\MyProject\TrackingLog\AjaxControl\obj\Debug\AjaxControl.vbproj.GenerateResource.Cache
+D:\MyProject\TrackingLog\AjaxControl\obj\Debug\AjaxControl.dll
+D:\MyProject\TrackingLog\AjaxControl\obj\Debug\AjaxControl.xml
+D:\MyProject\TrackingLog\AjaxControl\obj\Debug\AjaxControl.pdb
+D:\MyProject\ScoreSupportTicket\AjaxControl\bin\Debug\AjaxControl.dll
+D:\MyProject\ScoreSupportTicket\AjaxControl\bin\Debug\AjaxControl.pdb
+D:\MyProject\ScoreSupportTicket\AjaxControl\bin\Debug\AjaxControl.xml
+D:\MyProject\ScoreSupportTicket\AjaxControl\obj\Debug\AjaxControl.Resources.resources
+D:\MyProject\ScoreSupportTicket\AjaxControl\obj\Debug\AjaxControl.vbproj.GenerateResource.Cache
+D:\MyProject\ScoreSupportTicket\AjaxControl\obj\Debug\AjaxControl.dll
+D:\MyProject\ScoreSupportTicket\AjaxControl\obj\Debug\AjaxControl.xml
+D:\MyProject\ScoreSupportTicket\AjaxControl\obj\Debug\AjaxControl.pdb

@@ -1,0 +1,29 @@
+﻿Imports System.Data
+Imports _ArtiligentDB.Biz
+Imports ResourceFile
+
+Partial Class _01_Setup_GPCWeb102_Location
+    Inherits UIPage : Implements UIPage.PropertyPage
+
+#Region "### Delcare & Variable ###"
+    Public ReadOnly Property ppUpdateBy As String
+        Get
+            Return 32
+        End Get
+    End Property
+#End Region
+
+#Region "### Initail Page ###"
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+
+    End Sub
+#End Region
+
+#Region "### Implements ###"
+    Public Sub PopulateData() Implements ResourceFile.UIPage.PropertyPage.PopulateData
+
+    End Sub
+#End Region
+
+
+End Class

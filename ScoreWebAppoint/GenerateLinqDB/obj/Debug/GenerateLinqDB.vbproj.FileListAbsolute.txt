@@ -1,0 +1,15 @@
+D:\MyProject\ScoreWebAppoint\GenerateLinqDB\obj\Debug\GenerateLinqDB.GenerateCode.resources
+D:\MyProject\ScoreWebAppoint\GenerateLinqDB\obj\Debug\GenerateLinqDB.Resources.resources
+D:\MyProject\ScoreWebAppoint\GenerateLinqDB\obj\Debug\GenerateLinqDB.vbproj.GenerateResource.Cache
+D:\MyProject\ScoreWebAppoint\GenerateLinqDB\bin\Debug\GenerateLinqDB.exe.config
+D:\MyProject\ScoreWebAppoint\GenerateLinqDB\bin\Debug\GenerateLinqDB.exe
+D:\MyProject\ScoreWebAppoint\GenerateLinqDB\bin\Debug\GenerateLinqDB.pdb
+D:\MyProject\ScoreWebAppoint\GenerateLinqDB\bin\Debug\GenerateLinqDB.xml
+D:\MyProject\ScoreWebAppoint\GenerateLinqDB\bin\Debug\LinqDB.dll
+D:\MyProject\ScoreWebAppoint\GenerateLinqDB\bin\Debug\LinqDB.pdb
+D:\MyProject\ScoreWebAppoint\GenerateLinqDB\bin\Debug\LinqDB.xml
+D:\MyProject\ScoreWebAppoint\GenerateLinqDB\obj\Debug\GenerateLinqDB.vbprojResolveAssemblyReference.cache
+D:\MyProject\ScoreWebAppoint\GenerateLinqDB\obj\Debug\GenerateLinqDB.exe
+D:\MyProject\ScoreWebAppoint\GenerateLinqDB\obj\Debug\GenerateLinqDB.xml
+D:\MyProject\ScoreWebAppoint\GenerateLinqDB\obj\Debug\GenerateLinqDB.pdb
+D:\MyProject\ScoreWebAppoint\GenerateLinqDB\obj\Debug\GenerateLinqDB.frmTestForm.resources

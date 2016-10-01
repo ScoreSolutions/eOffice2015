@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetAccountAllList">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetAccountAllListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAccountAllListResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAccountBranch">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AccountID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAccountBranchResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAccountBranchResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAccountContact">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AccountID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAccountContactResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAccountContactResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetProjectAllList">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetProjectAllListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetProjectAllListResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetProjectByAccount">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AccountID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetProjectByAccountResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetProjectByAccountResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserAllList">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetUserAllListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUserAllListResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetActiveUserList">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetActiveUserListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetActiveUserListResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckAuthorizeUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pwd" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckAuthorizeUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CheckAuthorizeUserResult" type="tns:clsUserAuthorizedPara" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="clsUserAuthorizedPara">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="CheckUserAuthorized" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserPara" type="tns:clsUserPara" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="clsUserPara">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ID" type="s:long" />
+          <s:element minOccurs="0" maxOccurs="1" name="EMPLOYEE_ID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SURNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="STAFF_NAME" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="DEPARTMENT_ID" type="s:long" />
+          <s:element minOccurs="0" maxOccurs="1" name="DEPARTMENT_ABB" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DEPARTMENT_DESC" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="POSITION_ID" type="s:long" />
+          <s:element minOccurs="0" maxOccurs="1" name="POSITION_DESC" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EMAIL" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="USERNAME" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="GROUP_ID" type="s:long" />
+          <s:element minOccurs="0" maxOccurs="1" name="GROUP_NAME_EN" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="GROUP_NAME_TH" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetAccountAllListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAccountAllList" />
+  </wsdl:message>
+  <wsdl:message name="GetAccountAllListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAccountAllListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAccountBranchSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAccountBranch" />
+  </wsdl:message>
+  <wsdl:message name="GetAccountBranchSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAccountBranchResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAccountContactSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAccountContact" />
+  </wsdl:message>
+  <wsdl:message name="GetAccountContactSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAccountContactResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetProjectAllListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetProjectAllList" />
+  </wsdl:message>
+  <wsdl:message name="GetProjectAllListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetProjectAllListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetProjectByAccountSoapIn">
+    <wsdl:part name="parameters" element="tns:GetProjectByAccount" />
+  </wsdl:message>
+  <wsdl:message name="GetProjectByAccountSoapOut">
+    <wsdl:part name="parameters" element="tns:GetProjectByAccountResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUserAllListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUserAllList" />
+  </wsdl:message>
+  <wsdl:message name="GetUserAllListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUserAllListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetActiveUserListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetActiveUserList" />
+  </wsdl:message>
+  <wsdl:message name="GetActiveUserListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetActiveUserListResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckAuthorizeUserSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckAuthorizeUser" />
+  </wsdl:message>
+  <wsdl:message name="CheckAuthorizeUserSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckAuthorizeUserResponse" />
+  </wsdl:message>
+  <wsdl:portType name="eOFFICEWebServiceAPISoap">
+    <wsdl:operation name="GetAccountAllList">
+      <wsdl:input message="tns:GetAccountAllListSoapIn" />
+      <wsdl:output message="tns:GetAccountAllListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAccountBranch">
+      <wsdl:input message="tns:GetAccountBranchSoapIn" />
+      <wsdl:output message="tns:GetAccountBranchSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAccountContact">
+      <wsdl:input message="tns:GetAccountContactSoapIn" />
+      <wsdl:output message="tns:GetAccountContactSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProjectAllList">
+      <wsdl:input message="tns:GetProjectAllListSoapIn" />
+      <wsdl:output message="tns:GetProjectAllListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProjectByAccount">
+      <wsdl:input message="tns:GetProjectByAccountSoapIn" />
+      <wsdl:output message="tns:GetProjectByAccountSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserAllList">
+      <wsdl:input message="tns:GetUserAllListSoapIn" />
+      <wsdl:output message="tns:GetUserAllListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetActiveUserList">
+      <wsdl:input message="tns:GetActiveUserListSoapIn" />
+      <wsdl:output message="tns:GetActiveUserListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckAuthorizeUser">
+      <wsdl:input message="tns:CheckAuthorizeUserSoapIn" />
+      <wsdl:output message="tns:CheckAuthorizeUserSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="eOFFICEWebServiceAPISoap" type="tns:eOFFICEWebServiceAPISoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetAccountAllList">
+      <soap:operation soapAction="http://tempuri.org/GetAccountAllList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAccountBranch">
+      <soap:operation soapAction="http://tempuri.org/GetAccountBranch" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAccountContact">
+      <soap:operation soapAction="http://tempuri.org/GetAccountContact" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProjectAllList">
+      <soap:operation soapAction="http://tempuri.org/GetProjectAllList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProjectByAccount">
+      <soap:operation soapAction="http://tempuri.org/GetProjectByAccount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserAllList">
+      <soap:operation soapAction="http://tempuri.org/GetUserAllList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetActiveUserList">
+      <soap:operation soapAction="http://tempuri.org/GetActiveUserList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckAuthorizeUser">
+      <soap:operation soapAction="http://tempuri.org/CheckAuthorizeUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="eOFFICEWebServiceAPISoap12" type="tns:eOFFICEWebServiceAPISoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetAccountAllList">
+      <soap12:operation soapAction="http://tempuri.org/GetAccountAllList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAccountBranch">
+      <soap12:operation soapAction="http://tempuri.org/GetAccountBranch" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAccountContact">
+      <soap12:operation soapAction="http://tempuri.org/GetAccountContact" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProjectAllList">
+      <soap12:operation soapAction="http://tempuri.org/GetProjectAllList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProjectByAccount">
+      <soap12:operation soapAction="http://tempuri.org/GetProjectByAccount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserAllList">
+      <soap12:operation soapAction="http://tempuri.org/GetUserAllList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetActiveUserList">
+      <soap12:operation soapAction="http://tempuri.org/GetActiveUserList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckAuthorizeUser">
+      <soap12:operation soapAction="http://tempuri.org/CheckAuthorizeUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="eOFFICEWebServiceAPI">
+    <wsdl:port name="eOFFICEWebServiceAPISoap" binding="tns:eOFFICEWebServiceAPISoap">
+      <soap:address location="http://www.scoresolutions.co.th/eoffice2014/eOFFICEWebServiceAPI.asmx" />
+    </wsdl:port>
+    <wsdl:port name="eOFFICEWebServiceAPISoap12" binding="tns:eOFFICEWebServiceAPISoap12">
+      <soap12:address location="http://www.scoresolutions.co.th/eoffice2014/eOFFICEWebServiceAPI.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

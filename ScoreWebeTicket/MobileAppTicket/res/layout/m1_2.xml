@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bgticket" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="84dp"
+        android:text="Ticket Code : "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="20dp"
+        android:text="Project : "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/txtpro"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignRight="@+id/txtcode"
+        android:layout_toRightOf="@+id/textView2"
+        android:background="@drawable/textradins"
+        android:ems="10"
+        android:enabled="false" />
+
+    <EditText
+        android:id="@+id/txtbranch"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignLeft="@+id/txtpro"
+        android:layout_alignRight="@+id/txtpro"
+        android:background="@drawable/textradins"
+        android:ems="10"
+        android:enabled="false" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtbranch"
+        android:layout_marginTop="16dp"
+        android:layout_toLeftOf="@+id/txtbranch"
+        android:text="Message :"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="22dp"
+        android:layout_toLeftOf="@+id/txtbranch"
+        android:text="Branch : "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/txtcode"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_alignRight="@+id/txtmess"
+        android:layout_toRightOf="@+id/textView1"
+        android:background="@drawable/textradins"
+        android:ems="10"
+        android:enabled="false" />
+
+    <EditText
+        android:id="@+id/txtmess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnreply"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/textradins"
+        android:ems="10"
+        android:enabled="false"
+        android:gravity="top"
+        android:inputType="textPostalAddress"
+        android:textAlignment="gravity" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnreply"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/txtmess"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/mybutton"
+        android:text="Reply" />
+
+</RelativeLayout>

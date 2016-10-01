@@ -1,0 +1,35 @@
+C:\Users\NIWAT\Documents\Visual Studio 2013\Projects\ServiceTK\ServiceTK\bin\ServiceTK.dll.config
+C:\Users\NIWAT\Documents\Visual Studio 2013\Projects\ServiceTK\ServiceTK\bin\ServiceTK.dll
+C:\Users\NIWAT\Documents\Visual Studio 2013\Projects\ServiceTK\ServiceTK\bin\ServiceTK.pdb
+C:\Users\NIWAT\Documents\Visual Studio 2013\Projects\ServiceTK\ServiceTK\bin\ServiceTK.xml
+C:\Users\NIWAT\Documents\Visual Studio 2013\Projects\ServiceTK\ServiceTK\bin\Newtonsoft.Json.dll
+C:\Users\NIWAT\Documents\Visual Studio 2013\Projects\ServiceTK\ServiceTK\obj\Debug\WS_TK.vbprojResolveAssemblyReference.cache
+C:\Users\NIWAT\Documents\Visual Studio 2013\Projects\ServiceTK\ServiceTK\obj\Debug\ServiceTK.Resources.resources
+C:\Users\NIWAT\Documents\Visual Studio 2013\Projects\ServiceTK\ServiceTK\obj\Debug\WS_TK.vbproj.GenerateResource.Cache
+C:\Users\NIWAT\Documents\Visual Studio 2013\Projects\ServiceTK\ServiceTK\obj\Debug\ServiceTK.dll
+C:\Users\NIWAT\Documents\Visual Studio 2013\Projects\ServiceTK\ServiceTK\obj\Debug\ServiceTK.xml
+C:\Users\NIWAT\Documents\Visual Studio 2013\Projects\ServiceTK\ServiceTK\obj\Debug\ServiceTK.pdb
+C:\Users\Nattaphat\Desktop\ServiceTK\ServiceTK\bin\ServiceTK.dll.config
+C:\Users\Nattaphat\Desktop\ServiceTK\ServiceTK\bin\ServiceTK.dll
+C:\Users\Nattaphat\Desktop\ServiceTK\ServiceTK\bin\ServiceTK.pdb
+C:\Users\Nattaphat\Desktop\ServiceTK\ServiceTK\bin\ServiceTK.xml
+C:\Users\Nattaphat\Desktop\ServiceTK\ServiceTK\bin\Newtonsoft.Json.dll
+C:\Users\Nattaphat\Desktop\ServiceTK\ServiceTK\obj\Debug\WS_TK.vbprojResolveAssemblyReference.cache
+C:\Users\Nattaphat\Desktop\ServiceTK\ServiceTK\obj\Debug\ServiceTK.Resources.resources
+C:\Users\Nattaphat\Desktop\ServiceTK\ServiceTK\obj\Debug\WS_TK.vbproj.GenerateResource.Cache
+C:\Users\Nattaphat\Desktop\ServiceTK\ServiceTK\obj\Debug\ServiceTK.dll
+C:\Users\Nattaphat\Desktop\ServiceTK\ServiceTK\obj\Debug\ServiceTK.xml
+C:\Users\Nattaphat\Desktop\ServiceTK\ServiceTK\obj\Debug\ServiceTK.pdb
+C:\Users\NIWAT\Desktop\ServiceTK\ServiceTK\bin\ServiceTK.dll.config
+C:\Users\NIWAT\Desktop\ServiceTK\ServiceTK\bin\ServiceTK.dll
+C:\Users\NIWAT\Desktop\ServiceTK\ServiceTK\bin\ServiceTK.pdb
+C:\Users\NIWAT\Desktop\ServiceTK\ServiceTK\bin\ServiceTK.xml
+C:\Users\NIWAT\Desktop\ServiceTK\ServiceTK\bin\Newtonsoft.Json.dll
+C:\Users\NIWAT\Desktop\ServiceTK\ServiceTK\obj\Debug\WS_TK.vbprojResolveAssemblyReference.cache
+C:\Users\NIWAT\Desktop\ServiceTK\ServiceTK\obj\Debug\ServiceTK.Resources.resources
+C:\Users\NIWAT\Desktop\ServiceTK\ServiceTK\obj\Debug\WS_TK.vbproj.GenerateResource.Cache
+C:\Users\NIWAT\Desktop\ServiceTK\ServiceTK\obj\Debug\ServiceTK.dll
+C:\Users\NIWAT\Desktop\ServiceTK\ServiceTK\obj\Debug\ServiceTK.xml
+C:\Users\NIWAT\Desktop\ServiceTK\ServiceTK\obj\Debug\ServiceTK.pdb
+C:\Users\NIWAT\Desktop\ServiceTK\ServiceTK\bin\Telerik.Web.UI.dll
+C:\Users\NIWAT\Desktop\ServiceTK\ServiceTK\bin\Telerik.Charting.dll

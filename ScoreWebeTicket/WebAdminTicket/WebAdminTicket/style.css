@@ -1,0 +1,177 @@
+﻿.exampleWrapper {
+     float: left;
+     min-height: 203px;
+     max-width: 700px;
+     width:690px;
+     margin-bottom: 20px;
+}
+ 
+.configuratorWrapper {
+     float: right;
+}
+ 
+html div.qsfConfig {
+     margin-bottom: 0px;
+}
+ 
+html div.cfgContent {
+     padding-bottom: 0px;
+}
+ 
+.multiPage {
+     display: -moz-inline-box;
+     display: inline-block;
+     zoom: 1;
+     *display: inline;
+     position: relative;
+     margin: 0 -7px -4px -3px;
+}
+ 
+html .RadTabStripBottom_Glow.tabstrip,
+html .RadTabStripTop_Glow.tabstrip {
+     margin-left: -3px;
+     width: 400px;
+}
+ 
+* html div.RadTabStripVertical .rtsLevel {
+     width: 93px;
+}
+#ctl00_ContentPlaceHolder1_RadMultiPage1 img {
+     display: block;
+}
+ 
+.qsf-demo-content .rtsLevel.rtsCenter {
+     height: 36px;
+}
+
+
+
+/** Customize demo canvas */
+.qsf-demo-canvas {
+     width: 600px;
+     color: #555555;
+     background: #f6f6f6;
+     font-size: 13px;
+     position: relative;
+}
+     .qsf-demo-canvas .qsf-decoration {
+          width: 130px;
+          height: 205px;
+          background: url("img/qsf-demo-bg.png") 0 0 no-repeat;
+          position: absolute;
+          top: -20px;
+          left: 15px;
+     }
+ 
+     .qsf-demo-canvas h2 {
+          margin: 0;
+          padding: .25em 40px .25em 150px;
+          color: #ffffff;
+          background: #317f99;
+          text-transform: uppercase;
+     }
+ 
+     .qsf-demo-canvas .qsf-list {
+          margin: 0;
+          padding: 1em 0 1em 150px;
+          list-style: none;
+          background: #ced1d3;
+     }
+ 
+ 
+     /** Customize the RadUpload */
+     .qsf-demo-canvas .RadUpload {
+          width: auto;
+          padding: 1px 150px;
+          background: #e8e8e8;
+     }
+ 
+          .qsf-demo-canvas .ruInputs li {
+               position: relative;
+               line-height: 1.1;
+          }
+          .qsf-demo-canvas .ruInputs .ruRemove {
+               margin: 0 0 0 10px;
+               padding: 0;
+               position: absolute;
+               left: 100%;
+               top: 0;
+          }
+ 
+          /** Upload mini-control */
+          .qsf-demo-canvas .ruInputs li:first-child {
+               padding-top: 1em;
+               padding-bottom: 1em;
+          }
+ 
+          /** Validation error */
+          .qsf-demo-canvas .ruError {
+               padding: 5px 5px 5px 20px;
+               border: 1px solid #ef0000;
+               background: #f9e8e8;
+          }
+          .qsf-demo-canvas .ruError .ruFileWrap {
+               height: auto;
+               overflow: visible !important;
+               display: block;
+          }
+          .qsf-demo-canvas .ruError .ruUploadProgress {
+               margin-left: -18px;
+               display: block;
+          }
+          .qsf-demo-canvas .ruError .ruUploadFailure {
+               background-position: 2px 80%;
+          }
+          .qsf-demo-canvas .ruError .ruErrorMessage {
+               display: block;
+               font-variant: small-caps;
+               text-transform: lowercase;
+          }
+ 
+ 
+ 
+     /** Validation list */
+     .qsf-demo-canvas .qsf-results {
+          padding: 1em 150px;
+     }
+ 
+          /** Headings */
+          .qsf-demo-canvas .qsf-results h3 {
+               margin: 0;
+               padding: 1em 0 1em 40px;
+               font-size: 10px;
+               font-weight: normal;
+               text-transform: uppercase;
+               background-position: left center;
+               background-repeat: no-repeat;
+          }
+               .qsf-demo-canvas .qsf-success h3 {
+                    color: #328d0a;
+                    background-image: url("img/qsf-demo-success-bg.png");
+               }
+               .qsf-demo-canvas .qsf-error h3 {
+                    color: #ef0000;
+                    background-image: url("img/qsf-demo-error-bg.png");
+               }
+ 
+          /** list */
+          .qsf-demo-canvas .qsf-results .qsf-list {
+               padding: 10px;
+               background: none;
+          }
+               .qsf-demo-canvas .qsf-success .qsf-list {
+                    padding-left: 0px;
+               }
+               .qsf-demo-canvas .qsf-error .qsf-list {
+                    background-color: #f9e8e8;
+                    margin-bottom: 1em;
+               }
+ 
+ 
+          /* Error */
+          .qsf-demo-canvas .ruError .ruErrorMessage {
+               color: #ef0000;
+               font-variant: small-caps;
+               text-transform: lowercase;
+               padding-bottom: 0;
+          }

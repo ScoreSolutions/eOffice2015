@@ -1,0 +1,54 @@
+D:\My Documents\ScoreSolutions\TrackingLog\Process\bin\Debug\Process.dll
+D:\My Documents\ScoreSolutions\TrackingLog\Process\bin\Debug\Process.pdb
+D:\My Documents\ScoreSolutions\TrackingLog\Process\bin\Debug\Process.xml
+D:\My Documents\ScoreSolutions\TrackingLog\Process\bin\Debug\DAL.dll
+D:\My Documents\ScoreSolutions\TrackingLog\Process\bin\Debug\Data.dll
+D:\My Documents\ScoreSolutions\TrackingLog\Process\bin\Debug\DAL.pdb
+D:\My Documents\ScoreSolutions\TrackingLog\Process\bin\Debug\DAL.xml
+D:\My Documents\ScoreSolutions\TrackingLog\Process\bin\Debug\Data.pdb
+D:\My Documents\ScoreSolutions\TrackingLog\Process\bin\Debug\Data.xml
+D:\My Documents\ScoreSolutions\TrackingLog\Process\obj\Debug\ResolveAssemblyReference.cache
+D:\My Documents\ScoreSolutions\TrackingLog\Process\obj\Debug\Process.vbproj.GenerateResource.Cache
+D:\My Documents\ScoreSolutions\TrackingLog\Process\obj\Debug\Process.dll
+D:\My Documents\ScoreSolutions\TrackingLog\Process\obj\Debug\Process.xml
+D:\My Documents\ScoreSolutions\TrackingLog\Process\obj\Debug\Process.pdb
+D:\My Documents\ScoreSolutions\TrackingLog\Process\obj\Debug\XCS.Process.Resources.resources
+D:\MyProject\TrackingLog\Process\bin\Debug\Process.dll
+D:\MyProject\TrackingLog\Process\bin\Debug\Process.pdb
+D:\MyProject\TrackingLog\Process\bin\Debug\Process.xml
+D:\MyProject\TrackingLog\Process\bin\Debug\DAL.dll
+D:\MyProject\TrackingLog\Process\bin\Debug\Data.dll
+D:\MyProject\TrackingLog\Process\bin\Debug\DAL.pdb
+D:\MyProject\TrackingLog\Process\bin\Debug\DAL.xml
+D:\MyProject\TrackingLog\Process\bin\Debug\Data.pdb
+D:\MyProject\TrackingLog\Process\bin\Debug\Data.xml
+D:\MyProject\TrackingLog\Process\obj\Debug\ResolveAssemblyReference.cache
+D:\MyProject\TrackingLog\Process\obj\Debug\XCS.Process.Resources.resources
+D:\MyProject\TrackingLog\Process\obj\Debug\Process.vbproj.GenerateResource.Cache
+D:\MyProject\TrackingLog\Process\obj\Debug\Process.dll
+D:\MyProject\TrackingLog\Process\obj\Debug\Process.xml
+D:\MyProject\TrackingLog\Process\obj\Debug\Process.pdb
+D:\MyProject\TrackingLog\Process\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\MyProject\TrackingLog\Process\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\MyProject\TrackingLog\Process\bin\Debug\office.dll
+D:\MyProject\ScoreSupportTicket\Process\bin\Debug\Process.dll
+D:\MyProject\ScoreSupportTicket\Process\bin\Debug\Process.pdb
+D:\MyProject\ScoreSupportTicket\Process\bin\Debug\Process.xml
+D:\MyProject\ScoreSupportTicket\Process\bin\Debug\DAL.dll
+D:\MyProject\ScoreSupportTicket\Process\bin\Debug\Data.dll
+D:\MyProject\ScoreSupportTicket\Process\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\MyProject\ScoreSupportTicket\Process\bin\Debug\office.dll
+D:\MyProject\ScoreSupportTicket\Process\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\MyProject\ScoreSupportTicket\Process\bin\Debug\DAL.pdb
+D:\MyProject\ScoreSupportTicket\Process\bin\Debug\DAL.xml
+D:\MyProject\ScoreSupportTicket\Process\bin\Debug\Data.pdb
+D:\MyProject\ScoreSupportTicket\Process\bin\Debug\Data.xml
+D:\MyProject\ScoreSupportTicket\Process\bin\Debug\Microsoft.Office.Interop.Excel.xml
+D:\MyProject\ScoreSupportTicket\Process\bin\Debug\office.xml
+D:\MyProject\ScoreSupportTicket\Process\obj\Debug\Process.vbprojResolveAssemblyReference.cache
+D:\MyProject\ScoreSupportTicket\Process\obj\Debug\XCS.Process.Resources.resources
+D:\MyProject\ScoreSupportTicket\Process\obj\Debug\Process.vbproj.GenerateResource.Cache
+D:\MyProject\ScoreSupportTicket\Process\obj\Debug\Process.dll
+D:\MyProject\ScoreSupportTicket\Process\obj\Debug\Process.xml
+D:\MyProject\ScoreSupportTicket\Process\obj\Debug\Process.pdb
+D:\MyProject\ScoreSupportTicket\Process\bin\Debug\Process.dll.config

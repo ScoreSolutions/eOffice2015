@@ -1,0 +1,36 @@
+D:\My Documents\ScoreSolutions\TrackingLog\DAL\bin\Debug\DAL.dll
+D:\My Documents\ScoreSolutions\TrackingLog\DAL\bin\Debug\DAL.pdb
+D:\My Documents\ScoreSolutions\TrackingLog\DAL\bin\Debug\DAL.xml
+D:\My Documents\ScoreSolutions\TrackingLog\DAL\bin\Debug\Data.dll
+D:\My Documents\ScoreSolutions\TrackingLog\DAL\bin\Debug\Data.pdb
+D:\My Documents\ScoreSolutions\TrackingLog\DAL\bin\Debug\Data.xml
+D:\My Documents\ScoreSolutions\TrackingLog\DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\My Documents\ScoreSolutions\TrackingLog\DAL\obj\Debug\DAL.vbproj.GenerateResource.Cache
+D:\My Documents\ScoreSolutions\TrackingLog\DAL\obj\Debug\DAL.dll
+D:\My Documents\ScoreSolutions\TrackingLog\DAL\obj\Debug\DAL.xml
+D:\My Documents\ScoreSolutions\TrackingLog\DAL\obj\Debug\DAL.pdb
+D:\My Documents\ScoreSolutions\TrackingLog\DAL\obj\Debug\XCS.DAL.Resources.resources
+D:\MyProject\TrackingLog\DAL\bin\Debug\DAL.dll
+D:\MyProject\TrackingLog\DAL\bin\Debug\DAL.pdb
+D:\MyProject\TrackingLog\DAL\bin\Debug\DAL.xml
+D:\MyProject\TrackingLog\DAL\bin\Debug\Data.dll
+D:\MyProject\TrackingLog\DAL\bin\Debug\Data.pdb
+D:\MyProject\TrackingLog\DAL\bin\Debug\Data.xml
+D:\MyProject\TrackingLog\DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\MyProject\TrackingLog\DAL\obj\Debug\XCS.DAL.Resources.resources
+D:\MyProject\TrackingLog\DAL\obj\Debug\DAL.vbproj.GenerateResource.Cache
+D:\MyProject\TrackingLog\DAL\obj\Debug\DAL.dll
+D:\MyProject\TrackingLog\DAL\obj\Debug\DAL.xml
+D:\MyProject\TrackingLog\DAL\obj\Debug\DAL.pdb
+D:\MyProject\ScoreSupportTicket\DAL\bin\Debug\DAL.dll
+D:\MyProject\ScoreSupportTicket\DAL\bin\Debug\DAL.pdb
+D:\MyProject\ScoreSupportTicket\DAL\bin\Debug\DAL.xml
+D:\MyProject\ScoreSupportTicket\DAL\bin\Debug\Data.dll
+D:\MyProject\ScoreSupportTicket\DAL\bin\Debug\Data.pdb
+D:\MyProject\ScoreSupportTicket\DAL\bin\Debug\Data.xml
+D:\MyProject\ScoreSupportTicket\DAL\obj\Debug\DAL.vbprojResolveAssemblyReference.cache
+D:\MyProject\ScoreSupportTicket\DAL\obj\Debug\XCS.DAL.Resources.resources
+D:\MyProject\ScoreSupportTicket\DAL\obj\Debug\DAL.vbproj.GenerateResource.Cache
+D:\MyProject\ScoreSupportTicket\DAL\obj\Debug\DAL.dll
+D:\MyProject\ScoreSupportTicket\DAL\obj\Debug\DAL.xml
+D:\MyProject\ScoreSupportTicket\DAL\obj\Debug\DAL.pdb

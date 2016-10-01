@@ -1,0 +1,100 @@
+﻿.gridview .actions div {
+	float: right;
+	padding-right: 2px;
+	text-align: right;
+	width: 95px;
+}
+
+.gridview .edit td,.gridview .create td {
+	background: #DAFFCD;
+	padding: 4px;
+	border-bottom: solid 2px #C5DBF7;
+	border-top: solid 2px #C5DBF7;
+}
+.gridview td {
+	background: #E8F2F7;
+	border-left : solid 1px #ffffff;
+	border-bottom: solid 1px #ffffff;
+	color: #000000;
+	font-size: 10pt;
+	font-family: Tahoma;
+	padding: 2px 4px;
+	vertical-align: top ;
+}
+.gridview td a{
+	color: #0066CC;
+	font-size: 10pt;
+	font-family: Tahoma;
+	padding: 2px;
+	text-decoration: none;
+}
+.gridview td a:hover {
+	color: #333333;
+	font-weight: bold;
+}
+.gridview th {
+	background:  #2890D1;/*#4168BD;*/
+	border-left : solid 1px #ffffff;
+	color: #000000;
+	font-size: 10pt;
+	font-family: Tahoma;
+	letter-spacing: 0;
+	padding: 4px;
+	/*text-align:center ;*/
+}
+.gridview th a{
+	color: #FFFFFF;
+		font-size: 10pt;
+	font-family: Tahoma;
+	/*กำหนดไม่ให้ขีดเส้นใต้*/
+	/*text-decoration : none;*/
+	
+}
+.gridview th a:hover{
+	color: #00FF00;
+}
+.gridview tr.even td,.detailsview tr.even td{
+	background: #FFFFFF;
+}
+.gridview tr.header {
+	background: #C5DBF7;
+}
+.gridview,.detailsview {
+	width: 100%;
+}
+.gridview tr.GridPager td{
+	font-size: 10pt;
+	font-family: Tahoma;
+	color:#000000;
+	border : none;
+	background-color : #2890D1;
+} 
+.gridview tr.GridPager td a{
+	font-size: 10pt;
+	font-family: Tahoma;
+	color:#000000;
+	border : none;
+	text-decoration : underline;
+	background-color : #2890D1;
+} 
+/*.gridview
+{
+	table-layout: fixed;
+}
+
+/*ใช้ในการกำหนด style sheet Grid*/
+.btn
+{
+border-right: chocolate 1px outset;
+border-top: chocolate 1px outset;
+font-weight: bold;
+font-size: 10pt;
+border-left: chocolate 1px outset;
+color: #d2691e;
+border-bottom: chocolate 1px outset;
+font-family: Verdana, Tahoma, Arial;
+background-color: #ffffff;
+text-align:center;
+cursor: hand;
+}
+

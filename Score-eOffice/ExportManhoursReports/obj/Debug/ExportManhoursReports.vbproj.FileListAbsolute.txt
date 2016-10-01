@@ -1,0 +1,11 @@
+D:\MyProject\ScoreWeb\ExportManhoursReports\bin\Debug\ExportManhoursReports.exe
+D:\MyProject\ScoreWeb\ExportManhoursReports\bin\Debug\ExportManhoursReports.pdb
+D:\MyProject\ScoreWeb\ExportManhoursReports\bin\Debug\ExportManhoursReports.xml
+D:\MyProject\ScoreWeb\ExportManhoursReports\obj\Debug\ResolveAssemblyReference.cache
+D:\MyProject\ScoreWeb\ExportManhoursReports\obj\Debug\ExportManhoursReports.Resources.resources
+D:\MyProject\ScoreWeb\ExportManhoursReports\obj\Debug\ExportManhoursReports.vbproj.GenerateResource.Cache
+D:\MyProject\ScoreWeb\ExportManhoursReports\obj\Debug\ExportManhoursReports.exe
+D:\MyProject\ScoreWeb\ExportManhoursReports\obj\Debug\ExportManhoursReports.xml
+D:\MyProject\ScoreWeb\ExportManhoursReports\obj\Debug\ExportManhoursReports.pdb
+D:\MyProject\ScoreWeb\ExportManhoursReports\obj\Debug\ExportManhoursReports.Form1.resources
+D:\MyProject\ScoreWeb\ExportManhoursReports\bin\Debug\EPPlus.dll

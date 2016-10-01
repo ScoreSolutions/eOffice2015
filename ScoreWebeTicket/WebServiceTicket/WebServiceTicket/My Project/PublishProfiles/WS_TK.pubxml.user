@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\NIWAT\Desktop\ws_tkdeploy</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>10/02/2013 12:10:10</publishTime>
+    </File>
+    <File Include="bin/ServiceTK.dll">
+      <publishTime>10/09/2014 19:26:05</publishTime>
+    </File>
+    <File Include="bin/ServiceTK.xml">
+      <publishTime>10/09/2014 19:26:05</publishTime>
+    </File>
+    <File Include="bin/Telerik.Charting.dll">
+      <publishTime>02/03/2013 18:05:28</publishTime>
+    </File>
+    <File Include="bin/Telerik.Web.UI.dll">
+      <publishTime>02/03/2013 18:05:28</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>10/08/2014 19:50:16</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/09/2014 14:16:38</publishTime>
+    </File>
+    <File Include="WebForm1.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

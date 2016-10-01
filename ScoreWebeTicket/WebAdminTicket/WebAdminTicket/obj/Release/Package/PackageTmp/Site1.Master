@@ -1,0 +1,171 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site1.master.vb" Inherits="WebTarget.Site1" %>
+<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    
+    <link rel ="stylesheet" href ="mbcsmbmcp.css" type ="text/css" />
+    
+     <style type="text/css">
+
+                html {min-height:100%
+        }
+
+                body {
+	        
+        }
+         .MenuContent {
+            background-image: -webkit-gradient(
+	        linear,
+	        left top,
+	        left bottom,
+	        color-stop(0, #2A2A2A),
+	        color-stop(0.55, #2A2A2A));
+            background-image: -o-linear-gradient(bottom, #2A2A2A 0%, #2A2A2A 55%);
+            background-image: -moz-linear-gradient(bottom, #2A2A2A 0%, #2A2A2A 55%);
+            background-image: -webkit-linear-gradient(bottom, #2A2A2A 0%, #2A2A2A 55%);
+            background-image: -ms-linear-gradient(bottom, #2A2A2A 0%, #2A2A2A 55%);
+            background-image: linear-gradient(to bottom, #2A2A2A 0%, #2A2A2A 55%);
+         }
+
+                      
+                .content {
+                  vertical-align:top;
+                    width: 100%;
+	        background-image: -webkit-gradient(
+	        linear,
+	        left top,
+	        left bottom,
+	        color-stop(0.07, #2A2A2A),
+	        color-stop(0.55, #2A2A2A)
+        );
+        background-image: -o-linear-gradient(bottom, #2A2A2A 7%, #2A2A2A 55%);
+        background-image: -moz-linear-gradient(bottom, #2A2A2A 7%, #2A2A2A 55%);
+        background-image: -webkit-linear-gradient(bottom, #2A2A2A 7%, #2A2A2A 55%);
+        background-image: -ms-linear-gradient(bottom, #2A2A2A 7%, #2A2A2A 55%);
+        background-image: linear-gradient(to bottom, #2A2A2A 7%, #2A2A2A 55%);
+        border-radius:10px;
+        }
+        
+                .center{
+                    width :100%;
+            
+                }
+
+                 .auto-style6 {
+                     width: 20px;
+
+                 }
+
+                 #form1 {
+                     font-weight: 700;
+                 }
+
+                 .auto-style7 {
+                     width: 490px;
+                 }
+
+            </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+
+</head>
+<body>
+    <form id="form1" runat="server">
+
+    <div>
+        <table border="0" cellpadding="0" cellspacing="0" style="width:100%">
+            <tr>
+                <td colspan="2">
+                    <table  align="center" class="MenuContent" style="width:100%" >
+                        <tr >
+                            <td class="auto-style7" style="vertical-align: top" rowspan="2">
+                                <asp:ScriptManager ID="ScriptManager1" runat="server">
+                                </asp:ScriptManager>
+                                <asp:Image ID="Image1" runat="server" Height="92px" ImageUrl="~/Image/logo.png" Width="213px" />
+                                <br />
+                                <marquee align="left" direction="left" scrolldelay="100" style="width: 494px; margin-top: 0px;">Information Massage</marquee>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align: top" class="auto-style6">
+                                <ul id="mbmcpebul_table" class="mbmcpebul_menulist css_menu" style="width: 504px; height: 44px; z-index: 1000;">
+                                    <li class="topitem spaced_li first_button">
+                                        <div class="buttonbg gradient_button gradient40">
+                                            <div class="arrow"><a style="color: red"><% =Session("state") %></a></div>
+                                        </div>
+                                        <ul class="gradient_menu gradient116">
+                                            <li class="gradient_menuitem gradient29 first_item">
+                                                <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Login.aspx" Target="_parent">Logout</asp:HyperLink></li>
+                                        </ul>
+                                    </li>
+                                    <li class="topitem spaced_li">
+                                        <div class="buttonbg gradient_button gradient40" style="width: 127px;">
+                                            <div class="arrow"><a href="MainPage.aspx" target="contentPane">Home</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="topitem spaced_li">
+                                        <div class="buttonbg gradient_button gradient40" style="width: 127px;">
+                                            <div class="arrow"><a>Master Data</a></div>
+                                        </div>
+                                        <ul class="gradient_menu gradient145">
+                                            <li class="gradient_menuitem gradient29 first_item"><a title="" href="User.aspx" target="contentPane">User</a></li>
+                                            <li class="gradient_menuitem gradient29"><a title="" href="Role.aspx" target="contentPane">Role</a></li>
+                                            <li class="gradient_menuitem gradient29 last_item"><a title="" href="Customer.aspx" target="contentPane">Customer</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="topitem spaced_li">
+                                        <div class="buttonbg gradient_button gradient40" style="width: 114px;">
+                                            <div class="arrow"><a>Ticket Manage</a></div>
+                                        </div>
+                                        <ul class="gradient_menu gradient58">
+                                            <li class="gradient_menuitem gradient29 first_item"><a title="" href="creatertic.aspx" target="contentPane">Create Ticket</a></li>
+                                            <li class="gradient_menuitem gradient29"><a title="" href="WebForm2.aspx" target="contentPane">Ticket List</a></li>
+                                            <li class="gradient_menuitem gradient29 last_item"><a title="" href="AutoComplete.aspx" target="contentPane">Close Ticket</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <script type="text/javascript" src="mbjsmbmcp.js"></script>
+                            </td>
+                        </tr>
+                    </table>
+
+                </td>
+
+            </tr>
+            <tr>
+                <td style="width:150px" border="2">&nbsp;
+                    <telerik:radcalendar id="RadCalendar1" runat="server" autopostback="True" cultureinfo="th-TH" font-names="Arial,Verdana,Tahoma" forecolor="Black" height="199px" selecteddate="" style="border-color: #ececec" viewselectortext="x" width="234px">
+                        </telerik:radcalendar>
+                    <br />
+                    <br />
+                    <asp:TextBox ID="TextBox1" runat="server" Height="18px"></asp:TextBox>
+                    &nbsp;<asp:Button ID="rbShowDialog" runat="server" Text="Search KM" Width="76px" />
+                    <br />
+                    <br />
+                    <telerik:radwindow id="RadWindow1" runat="server">
+                        </telerik:radwindow>
+
+                </td>
+                <td>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+                    </asp:ContentPlaceHolder>
+
+                </td>
+            </tr>
+        </table>
+
+
+          
+
+
+
+        
+    </div>
+    </form>
+</body>
+</html>

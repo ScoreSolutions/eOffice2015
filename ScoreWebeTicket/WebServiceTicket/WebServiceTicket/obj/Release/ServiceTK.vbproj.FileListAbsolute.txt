@@ -1,0 +1,10 @@
+c:\users\niwat\documents\visual studio 2013\Projects\ServiceTK\ServiceTK\bin\ServiceTK.dll.config
+c:\users\niwat\documents\visual studio 2013\Projects\ServiceTK\ServiceTK\bin\ServiceTK.dll
+c:\users\niwat\documents\visual studio 2013\Projects\ServiceTK\ServiceTK\bin\ServiceTK.pdb
+c:\users\niwat\documents\visual studio 2013\Projects\ServiceTK\ServiceTK\bin\ServiceTK.xml
+c:\users\niwat\documents\visual studio 2013\Projects\ServiceTK\ServiceTK\bin\Newtonsoft.Json.dll
+c:\users\niwat\documents\visual studio 2013\Projects\ServiceTK\ServiceTK\obj\Release\ServiceTK.Resources.resources
+c:\users\niwat\documents\visual studio 2013\Projects\ServiceTK\ServiceTK\obj\Release\ServiceTK.vbproj.GenerateResource.Cache
+c:\users\niwat\documents\visual studio 2013\Projects\ServiceTK\ServiceTK\obj\Release\ServiceTK.dll
+c:\users\niwat\documents\visual studio 2013\Projects\ServiceTK\ServiceTK\obj\Release\ServiceTK.xml
+c:\users\niwat\documents\visual studio 2013\Projects\ServiceTK\ServiceTK\obj\Release\ServiceTK.pdb

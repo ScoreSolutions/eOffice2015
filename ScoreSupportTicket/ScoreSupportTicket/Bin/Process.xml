@@ -1,0 +1,180 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Process
+</name>
+</assembly>
+<members>
+<member name="P:XCS.Process.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:XCS.Process.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:XCS.Process.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:XCS.Process.eOfficeWebServiceAPI.eOFFICEWebServiceAPI.#ctor">
+	<remarks/>
+</member><member name="E:XCS.Process.eOfficeWebServiceAPI.eOFFICEWebServiceAPI.GetAccountAllListCompleted">
+	<remarks/>
+</member><member name="E:XCS.Process.eOfficeWebServiceAPI.eOFFICEWebServiceAPI.GetAccountBranchCompleted">
+	<remarks/>
+</member><member name="E:XCS.Process.eOfficeWebServiceAPI.eOFFICEWebServiceAPI.GetAccountContactCompleted">
+	<remarks/>
+</member><member name="E:XCS.Process.eOfficeWebServiceAPI.eOFFICEWebServiceAPI.GetProjectAllListCompleted">
+	<remarks/>
+</member><member name="E:XCS.Process.eOfficeWebServiceAPI.eOFFICEWebServiceAPI.GetProjectByAccountCompleted">
+	<remarks/>
+</member><member name="E:XCS.Process.eOfficeWebServiceAPI.eOFFICEWebServiceAPI.GetUserAllListCompleted">
+	<remarks/>
+</member><member name="E:XCS.Process.eOfficeWebServiceAPI.eOFFICEWebServiceAPI.GetActiveUserListCompleted">
+	<remarks/>
+</member><member name="E:XCS.Process.eOfficeWebServiceAPI.eOFFICEWebServiceAPI.CheckAuthorizeUserCompleted">
+	<remarks/>
+</member><member name="M:XCS.Process.eOfficeWebServiceAPI.eOFFICEWebServiceAPI.GetAccountAllList">
+	<remarks/>
+</member><member name="M:XCS.Process.eOfficeWebServiceAPI.eOFFICEWebServiceAPI.GetAccountAllListAsync">
+	<remarks/>
+</member><member name="M:XCS.Process.eOfficeWebServiceAPI.eOFFICEWebServiceAPI.GetAccountAllListAsync(System.Object)">
+	<remarks/>
+</member><member name="M:XCS.Process.eOfficeWebServiceAPI.eOFFICEWebServiceAPI.GetAccountBranch(System.String)">
+	<remarks/>
+</member><member name="M:XCS.Process.eOfficeWebServiceAPI.eOFFICEWebServiceAPI.GetAccountBranchAsync(System.String)">
+	<remarks/>
+</member><member name="M:XCS.Process.eOfficeWebServiceAPI.eOFFICEWebServiceAPI.GetAccountBranchAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:XCS.Process.eOfficeWebServiceAPI.eOFFICEWebServiceAPI.GetAccountContact(System.String)">
+	<remarks/>
+</member><member name="M:XCS.Process.eOfficeWebServiceAPI.eOFFICEWebServiceAPI.GetAccountContactAsync(System.String)">
+	<remarks/>
+</member><member name="M:XCS.Process.eOfficeWebServiceAPI.eOFFICEWebServiceAPI.GetAccountContactAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:XCS.Process.eOfficeWebServiceAPI.eOFFICEWebServiceAPI.GetProjectAllList">
+	<remarks/>
+</member><member name="M:XCS.Process.eOfficeWebServiceAPI.eOFFICEWebServiceAPI.GetProjectAllListAsync">
+	<remarks/>
+</member><member name="M:XCS.Process.eOfficeWebServiceAPI.eOFFICEWebServiceAPI.GetProjectAllListAsync(System.Object)">
+	<remarks/>
+</member><member name="M:XCS.Process.eOfficeWebServiceAPI.eOFFICEWebServiceAPI.GetProjectByAccount(System.String)">
+	<remarks/>
+</member><member name="M:XCS.Process.eOfficeWebServiceAPI.eOFFICEWebServiceAPI.GetProjectByAccountAsync(System.String)">
+	<remarks/>
+</member><member name="M:XCS.Process.eOfficeWebServiceAPI.eOFFICEWebServiceAPI.GetProjectByAccountAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:XCS.Process.eOfficeWebServiceAPI.eOFFICEWebServiceAPI.GetUserAllList">
+	<remarks/>
+</member><member name="M:XCS.Process.eOfficeWebServiceAPI.eOFFICEWebServiceAPI.GetUserAllListAsync">
+	<remarks/>
+</member><member name="M:XCS.Process.eOfficeWebServiceAPI.eOFFICEWebServiceAPI.GetUserAllListAsync(System.Object)">
+	<remarks/>
+</member><member name="M:XCS.Process.eOfficeWebServiceAPI.eOFFICEWebServiceAPI.GetActiveUserList">
+	<remarks/>
+</member><member name="M:XCS.Process.eOfficeWebServiceAPI.eOFFICEWebServiceAPI.GetActiveUserListAsync">
+	<remarks/>
+</member><member name="M:XCS.Process.eOfficeWebServiceAPI.eOFFICEWebServiceAPI.GetActiveUserListAsync(System.Object)">
+	<remarks/>
+</member><member name="M:XCS.Process.eOfficeWebServiceAPI.eOFFICEWebServiceAPI.CheckAuthorizeUser(System.String,System.String)">
+	<remarks/>
+</member><member name="M:XCS.Process.eOfficeWebServiceAPI.eOFFICEWebServiceAPI.CheckAuthorizeUserAsync(System.String,System.String)">
+	<remarks/>
+</member><member name="M:XCS.Process.eOfficeWebServiceAPI.eOFFICEWebServiceAPI.CheckAuthorizeUserAsync(System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:XCS.Process.eOfficeWebServiceAPI.eOFFICEWebServiceAPI.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:XCS.Process.eOfficeWebServiceAPI.eOFFICEWebServiceAPI">
+	<remarks/>
+</member><member name="P:XCS.Process.eOfficeWebServiceAPI.clsUserAuthorizedPara.CheckUserAuthorized">
+	<remarks/>
+</member><member name="P:XCS.Process.eOfficeWebServiceAPI.clsUserAuthorizedPara.UserPara">
+	<remarks/>
+</member><member name="T:XCS.Process.eOfficeWebServiceAPI.clsUserAuthorizedPara">
+	<remarks/>
+</member><member name="P:XCS.Process.eOfficeWebServiceAPI.clsUserPara.ID">
+	<remarks/>
+</member><member name="P:XCS.Process.eOfficeWebServiceAPI.clsUserPara.EMPLOYEE_ID">
+	<remarks/>
+</member><member name="P:XCS.Process.eOfficeWebServiceAPI.clsUserPara.NAME">
+	<remarks/>
+</member><member name="P:XCS.Process.eOfficeWebServiceAPI.clsUserPara.SURNAME">
+	<remarks/>
+</member><member name="P:XCS.Process.eOfficeWebServiceAPI.clsUserPara.STAFF_NAME">
+	<remarks/>
+</member><member name="P:XCS.Process.eOfficeWebServiceAPI.clsUserPara.DEPARTMENT_ID">
+	<remarks/>
+</member><member name="P:XCS.Process.eOfficeWebServiceAPI.clsUserPara.DEPARTMENT_ABB">
+	<remarks/>
+</member><member name="P:XCS.Process.eOfficeWebServiceAPI.clsUserPara.DEPARTMENT_DESC">
+	<remarks/>
+</member><member name="P:XCS.Process.eOfficeWebServiceAPI.clsUserPara.POSITION_ID">
+	<remarks/>
+</member><member name="P:XCS.Process.eOfficeWebServiceAPI.clsUserPara.POSITION_DESC">
+	<remarks/>
+</member><member name="P:XCS.Process.eOfficeWebServiceAPI.clsUserPara.EMAIL">
+	<remarks/>
+</member><member name="P:XCS.Process.eOfficeWebServiceAPI.clsUserPara.USERNAME">
+	<remarks/>
+</member><member name="P:XCS.Process.eOfficeWebServiceAPI.clsUserPara.GROUP_ID">
+	<remarks/>
+</member><member name="P:XCS.Process.eOfficeWebServiceAPI.clsUserPara.GROUP_NAME_EN">
+	<remarks/>
+</member><member name="P:XCS.Process.eOfficeWebServiceAPI.clsUserPara.GROUP_NAME_TH">
+	<remarks/>
+</member><member name="T:XCS.Process.eOfficeWebServiceAPI.clsUserPara">
+	<remarks/>
+</member><member name="T:XCS.Process.eOfficeWebServiceAPI.GetAccountAllListCompletedEventHandler">
+	<remarks/>
+</member><member name="P:XCS.Process.eOfficeWebServiceAPI.GetAccountAllListCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:XCS.Process.eOfficeWebServiceAPI.GetAccountAllListCompletedEventArgs">
+	<remarks/>
+</member><member name="T:XCS.Process.eOfficeWebServiceAPI.GetAccountBranchCompletedEventHandler">
+	<remarks/>
+</member><member name="P:XCS.Process.eOfficeWebServiceAPI.GetAccountBranchCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:XCS.Process.eOfficeWebServiceAPI.GetAccountBranchCompletedEventArgs">
+	<remarks/>
+</member><member name="T:XCS.Process.eOfficeWebServiceAPI.GetAccountContactCompletedEventHandler">
+	<remarks/>
+</member><member name="P:XCS.Process.eOfficeWebServiceAPI.GetAccountContactCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:XCS.Process.eOfficeWebServiceAPI.GetAccountContactCompletedEventArgs">
+	<remarks/>
+</member><member name="T:XCS.Process.eOfficeWebServiceAPI.GetProjectAllListCompletedEventHandler">
+	<remarks/>
+</member><member name="P:XCS.Process.eOfficeWebServiceAPI.GetProjectAllListCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:XCS.Process.eOfficeWebServiceAPI.GetProjectAllListCompletedEventArgs">
+	<remarks/>
+</member><member name="T:XCS.Process.eOfficeWebServiceAPI.GetProjectByAccountCompletedEventHandler">
+	<remarks/>
+</member><member name="P:XCS.Process.eOfficeWebServiceAPI.GetProjectByAccountCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:XCS.Process.eOfficeWebServiceAPI.GetProjectByAccountCompletedEventArgs">
+	<remarks/>
+</member><member name="T:XCS.Process.eOfficeWebServiceAPI.GetUserAllListCompletedEventHandler">
+	<remarks/>
+</member><member name="P:XCS.Process.eOfficeWebServiceAPI.GetUserAllListCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:XCS.Process.eOfficeWebServiceAPI.GetUserAllListCompletedEventArgs">
+	<remarks/>
+</member><member name="T:XCS.Process.eOfficeWebServiceAPI.GetActiveUserListCompletedEventHandler">
+	<remarks/>
+</member><member name="P:XCS.Process.eOfficeWebServiceAPI.GetActiveUserListCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:XCS.Process.eOfficeWebServiceAPI.GetActiveUserListCompletedEventArgs">
+	<remarks/>
+</member><member name="T:XCS.Process.eOfficeWebServiceAPI.CheckAuthorizeUserCompletedEventHandler">
+	<remarks/>
+</member><member name="P:XCS.Process.eOfficeWebServiceAPI.CheckAuthorizeUserCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:XCS.Process.eOfficeWebServiceAPI.CheckAuthorizeUserCompletedEventArgs">
+	<remarks/>
+</member>
+</members>
+</doc>

@@ -1,0 +1,26 @@
+D:\My Documents\ScoreSolutions\TrackingLog\Data\bin\Debug\Data.dll
+D:\My Documents\ScoreSolutions\TrackingLog\Data\bin\Debug\Data.pdb
+D:\My Documents\ScoreSolutions\TrackingLog\Data\bin\Debug\Data.xml
+D:\My Documents\ScoreSolutions\TrackingLog\Data\obj\Debug\ResolveAssemblyReference.cache
+D:\My Documents\ScoreSolutions\TrackingLog\Data\obj\Debug\Data.vbproj.GenerateResource.Cache
+D:\My Documents\ScoreSolutions\TrackingLog\Data\obj\Debug\Data.dll
+D:\My Documents\ScoreSolutions\TrackingLog\Data\obj\Debug\Data.xml
+D:\My Documents\ScoreSolutions\TrackingLog\Data\obj\Debug\Data.pdb
+D:\My Documents\ScoreSolutions\TrackingLog\Data\obj\Debug\XCS.Data.Resources.resources
+D:\MyProject\TrackingLog\Data\bin\Debug\Data.dll
+D:\MyProject\TrackingLog\Data\bin\Debug\Data.pdb
+D:\MyProject\TrackingLog\Data\bin\Debug\Data.xml
+D:\MyProject\TrackingLog\Data\obj\Debug\ResolveAssemblyReference.cache
+D:\MyProject\TrackingLog\Data\obj\Debug\XCS.Data.Resources.resources
+D:\MyProject\TrackingLog\Data\obj\Debug\Data.vbproj.GenerateResource.Cache
+D:\MyProject\TrackingLog\Data\obj\Debug\Data.dll
+D:\MyProject\TrackingLog\Data\obj\Debug\Data.xml
+D:\MyProject\TrackingLog\Data\obj\Debug\Data.pdb
+D:\MyProject\ScoreSupportTicket\Data\bin\Debug\Data.dll
+D:\MyProject\ScoreSupportTicket\Data\bin\Debug\Data.pdb
+D:\MyProject\ScoreSupportTicket\Data\bin\Debug\Data.xml
+D:\MyProject\ScoreSupportTicket\Data\obj\Debug\XCS.Data.Resources.resources
+D:\MyProject\ScoreSupportTicket\Data\obj\Debug\Data.vbproj.GenerateResource.Cache
+D:\MyProject\ScoreSupportTicket\Data\obj\Debug\Data.dll
+D:\MyProject\ScoreSupportTicket\Data\obj\Debug\Data.xml
+D:\MyProject\ScoreSupportTicket\Data\obj\Debug\Data.pdb

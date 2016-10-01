@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="768px"
+    android:layout_height="1280px"
+    android:background="@drawable/bglogin"
+    android:orientation="horizontal"
+    android:scrollbars="none" >
+
+    <ListView
+        android:id="@+id/listView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtuser"
+        android:layout_toLeftOf="@+id/imglogin"
+        android:visibility="visible" >
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/listView3"
+        android:layout_toRightOf="@+id/listView3"
+        android:text="         " />
+
+    <ImageButton
+        android:id="@+id/imglogin"
+        android:layout_width="170sp"
+        android:layout_height="60sp"
+        android:layout_below="@+id/txtcode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:background="#0000"
+        android:src="@drawable/login_btn" />
+
+    <EditText
+        android:id="@+id/txtuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/txtcode"
+        android:layout_marginBottom="288dp"
+        android:layout_toRightOf="@+id/textView2"
+        android:ems="10"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/txtcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/imglogin"
+        android:layout_alignTop="@+id/txtuser"
+        android:layout_marginTop="48dp"
+        android:layout_toRightOf="@+id/textView2"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="52dp"
+        android:visibility="visible" />
+
+</RelativeLayout>

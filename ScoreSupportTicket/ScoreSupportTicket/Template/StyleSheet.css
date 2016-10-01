@@ -1,0 +1,95 @@
+﻿
+.TextView
+{
+	font-family:Tahoma; 
+	font-size:10pt; 
+	color:#7d129c; 
+	background-color:#EEEEEE; 
+	vertical-align:baseline; 
+	border:#EEEEEE 2px solid;
+}
+
+.TextBox {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #FFFFFF;
+	height: 18px;
+	border: 1px solid #9597aa;
+	color: #454547;
+}
+
+.t_tablestyle { table-layout: fixed; border-width: 1px; BORDER-TOP: thin outset; BORDER-BOTTOM: thin outset; border-right: thin outset; BORDER-LEFT: thin outset; padding:2px}
+.t_headtext { font-weight:bold; color:#491364; background-image:url(../Images/header_table_bg.png); background-repeat: repeat-x; background-color:#e4cafe; height: 25px}
+.t_alt_bg { background-color: #ecd9f6; }
+
+/* Controls */
+.zTextbox { font-family: Tahoma; font-size: 9pt; }
+.zTextbox-View {  font-family:Tahoma; font-size:9pt; color:#7d129c; background-color:#EEEEEE; vertical-align:baseline; border:#EEEEEE 2px solid;}
+.zTextboxR { font-family: Tahoma; font-size: 9pt; text-align:right; }
+.zTextboxR-View {  font-family:Tahoma; font-size:9pt; color:#7d129c; background-color:#EEEEEE; vertical-align:baseline; border:#EEEEEE 2px solid; text-align:right; }
+.zComboBox { font-family: Tahoma; font-size: 9pt;}
+.zButton { font-family: Tahoma; font-size: 9pt; height:22px}
+.zHidden { display:none }
+.zRemark { font-family: Tahoma; font-size: 9pt; font-weight:bold; color:Red; }
+.water { font-family: Tahoma; font-size: 9pt; color:Silver;}
+
+
+
+/* modal Popup */
+    .modalBackground {
+        background-color: Gray;
+        filter:alpha(opacity=70);
+        opacity:0.7;
+    }
+    .modalPopup {
+        background-color:#ffffff;
+        border-width:3px;
+        border-style:solid;
+        border-color:Gray;
+        padding:3px;
+    }
+    .modalPopupSearch {
+        background-color:#ffffff;
+        border-width:3px;
+        border-style:solid;
+        border-color:Gray;
+        padding:3px;
+        width:800px;
+        height:600px;
+        overflow:scroll;
+    }
+    .popupControl {
+        background-color:#AAD4FF;
+        position:absolute;
+        visibility:hidden;
+        border-style:solid;
+        border-color: Black;
+        border-width: 2px;
+    }
+    
+.GridViewStyle
+{   
+    font-family: "MS Sans Serif", "Microsoft Sans Serif", AngsanaUPC;
+    font-size:14px;
+    border: 1px solid gray;
+	padding: 4px;
+	height:auto;
+	text-align: left;
+	
+}
+
+.popHead {
+	font-size:18px;
+	color:#723373;
+	background-color:Blue;
+}
+
+.onProgress
+    {
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 20000;
+        width: 100%;
+        height: 100%;            
+        filter: alpha(opacity=60);
+    }

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="score.app.ticket"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+       android:minSdkVersion="11" 
+       android:targetSdkVersion="18"></uses-sdk>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="MainActivity"
+            android:label="@string/app_name"
+            android:configChanges="keyboardHidden|orientation" 
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="Mainmenu"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="M1viewissue"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="M2myassign"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="M3taskdis"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="M4skstatus"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="M1_1viewissue"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="M1_2viewissue"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="M2_1myassign"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="M2_2myassign"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="M3_1taskdis"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="M3_2taskdis"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="M3_3taskdis"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="M3_4taskdis"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="menu4open"></activity>  
+        <activity android:name="menu4wait"></activity>  
+        <activity android:name="menu4assign"></activity>  
+        <activity android:name="menu4close"></activity>
+         <activity android:name="M4viewstatus"></activity>           
+    </application>
+
+</manifest>

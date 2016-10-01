@@ -1,0 +1,9 @@
+D:\MyProject\ScoreWeb\ASP.NET\VisualBasicDemo\obj\Debug\ResolveAssemblyReference.cache
+D:\MyProject\ScoreWeb\ASP.NET\VisualBasicDemo\obj\Debug\VisualBasicDemo.vbproj.ResolveComReference.cache
+D:\MyProject\ScoreWeb\ASP.NET\VisualBasicDemo\obj\Debug\VisualBasicDemo.Resources.resources
+D:\MyProject\ScoreWeb\ASP.NET\VisualBasicDemo\obj\Debug\VisualBasicDemo.vbproj.GenerateResource.Cache
+D:\MyProject\ScoreWeb\ASP.NET\VisualBasicDemo\bin\VisualBasicDemo.pdb
+D:\MyProject\ScoreWeb\ASP.NET\VisualBasicDemo\bin\VisualBasicDemo.xml
+D:\MyProject\ScoreWeb\ASP.NET\VisualBasicDemo\obj\Debug\VisualBasicDemo.dll
+D:\MyProject\ScoreWeb\ASP.NET\VisualBasicDemo\obj\Debug\VisualBasicDemo.xml
+D:\MyProject\ScoreWeb\ASP.NET\VisualBasicDemo\obj\Debug\VisualBasicDemo.pdb

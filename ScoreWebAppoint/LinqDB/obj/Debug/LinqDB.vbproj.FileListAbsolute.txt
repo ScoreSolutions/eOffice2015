@@ -1,0 +1,8 @@
+D:\MyProject\ScoreWebAppoint\LinqDB\obj\Debug\LinqDB.Resources.resources
+D:\MyProject\ScoreWebAppoint\LinqDB\obj\Debug\LinqDB.vbproj.GenerateResource.Cache
+D:\MyProject\ScoreWebAppoint\LinqDB\bin\Debug\LinqDB.dll
+D:\MyProject\ScoreWebAppoint\LinqDB\bin\Debug\LinqDB.pdb
+D:\MyProject\ScoreWebAppoint\LinqDB\bin\Debug\LinqDB.xml
+D:\MyProject\ScoreWebAppoint\LinqDB\obj\Debug\LinqDB.dll
+D:\MyProject\ScoreWebAppoint\LinqDB\obj\Debug\LinqDB.xml
+D:\MyProject\ScoreWebAppoint\LinqDB\obj\Debug\LinqDB.pdb

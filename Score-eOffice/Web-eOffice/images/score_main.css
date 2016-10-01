@@ -1,0 +1,585 @@
+BODY {
+	SCROLLBAR-FACE-COLOR: #cfcfcf; SCROLLBAR-HIGHLIGHT-COLOR: #e2e2e2; SCROLLBAR-SHADOW-COLOR: #e2e2e2; SCROLLBAR-3DLIGHT-COLOR: #cccccc; SCROLLBAR-ARROW-COLOR: #0096ff; SCROLLBAR-TRACK-COLOR: #e2e2e2; SCROLLBAR-DARKSHADOW-COLOR: #a1a1a1
+}
+SELECT {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 12px; BORDER-LEFT-COLOR: #3c3c3c; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: #3c3c3c; COLOR: #3c3c3c; BORDER-TOP-COLOR: #3c3c3c; FONT-FAMILY: Arial, Helvetica; BACKGROUND-COLOR: #ffffff; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: #3c3c3c
+}
+TEXTAREA {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 12px; BORDER-LEFT-COLOR: #3c3c3c; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: #3c3c3c; COLOR: #000000; BORDER-TOP-COLOR: #3c3c3c; FONT-FAMILY: tahoma,Arial, Helvetica; BACKGROUND-COLOR: #eeeeee; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: #3c3c3c
+}
+INPUT.submit {
+	FONT-WEIGHT: bold; BACKGROUND-COLOR: #e0e0e0
+}
+TH {
+	FONT-FAMILY: Verdana, Arial, Helvetica; BACKGROUND-COLOR: #99ccff
+}
+A.menu_up:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.menu_up:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.menu_up:hover {
+	COLOR: #990000; TEXT-DECORATION: none
+}
+A.menu_left:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.menu_left:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.menu_left:hover {
+	COLOR: #ff3300; TEXT-DECORATION: none
+}
+.menu {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 10px; VISIBILITY: hidden; PADDING-BOTTOM: 0px; COLOR: white; PADDING-TOP: 0px; FONT-FAMILY: Thahoma,Verdana,Arial,Helvetica; POSITION: absolute; BACKGROUND-COLOR: #ffffff; layer-background-color: black
+}
+.menu A {
+	FONT-WEIGHT: normal; COLOR: white; FONT-FAMILY: Verdana,Arial,Helvetica; TEXT-DECORATION: none
+}
+.menu A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.menu A:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.menu A:hover {
+	FONT-WEIGHT: normal; COLOR: #ffffff; TEXT-DECORATION: none
+}
+.nav {
+	FONT-SIZE: 8pt; FONT-FAMILY: Arial, Verdana, Helvetica, helv, sans-serif
+}
+.main {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial, Verdana, Helvetica, helv, sans-serif
+}
+TD {
+	FONT-SIZE: 10pt; FONT-FAMILY: ms sans serif, Arial, Helvetica, sans-serif
+}
+INPUT {
+	FONT-SIZE: 10pt; FONT-FAMILY: ms sans serif, Arial, Helvetica, sans-serif
+}
+TEXTAREA {
+	FONT-SIZE: 10pt; FONT-FAMILY: ms sans serif, Arial, Helvetica, sans-serif
+}
+SELECT {
+	FONT-SIZE: 10pt; FONT-FAMILY: ms sans serif, Arial, Helvetica, sans-serif
+}
+.txtsmall {
+	FONT-SIZE: 9pt; FONT-FAMILY: ms sans serif, Arial, Helvetica, sans-serif
+}
+.ibutton {
+	BORDER-LEFT-COLOR: #eeeeee; BORDER-BOTTOM-COLOR: #eeeeee; BORDER-TOP-STYLE: none; BORDER-TOP-COLOR: #eeeeee; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BACKGROUND-COLOR: #ffffff; BORDER-RIGHT-COLOR: #eeeeee; BORDER-BOTTOM-STYLE: none
+}
+SELECT.country {
+	FONT-SIZE: 8pt; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+A {
+	COLOR: #004b2c; TEXT-DECORATION: none
+}
+A.menu_ms:link {
+	FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: Thahoma,ms sans serif, Arial; TEXT-DECORATION: none
+}
+A.menu_ms:visited {
+	FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: Thahoma,ms sans serif, Arial; TEXT-DECORATION: none
+}
+A.menu_ms:hover {
+	FONT-SIZE: 9pt; COLOR: #0000cc; FONT-FAMILY: Thahoma,ms sans serif, Arial; TEXT-DECORATION: none
+}
+A.menu_mc:link {
+	FONT-SIZE: 9pt; COLOR: #ffffff; FONT-FAMILY: Thahoma,ms sans serif, Arial; TEXT-DECORATION: none
+}
+A.menu_mc:visited {
+	FONT-SIZE: 9pt; COLOR: #ffffff; FONT-FAMILY: Thahoma,ms sans serif, Arial; TEXT-DECORATION: none
+}
+A.menu_mc:hover {
+	FONT-SIZE: 9pt; COLOR: #0a2453; FONT-FAMILY: Thahoma,ms sans serif, Arial; TEXT-DECORATION: none
+}
+A.menu_fs:link {
+	FONT-SIZE: 10pt; COLOR: #ffffff; FONT-FAMILY: ms sans serif, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.menu_fs:visited {
+	FONT-SIZE: 10pt; COLOR: #ffffff; FONT-FAMILY: ms sans serif, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.menu_fs:hover {
+	FONT-SIZE: 10pt; COLOR: #004e61; FONT-FAMILY: ms sans serif, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.tdfont {
+	COLOR: #ff0000
+}
+.txtselect {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #003272; FONT-FAMILY: ms sans serif, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.txtBig {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; FONT-FAMILY: ms sans serif, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.txtCode1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #004e61; FONT-FAMILY: ms sans serif, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.txtCode1_s {
+	FONT-WEIGHT: bold; FONT-SIZE: 11pt; COLOR: #004e61; FONT-FAMILY: ms sans serif, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.txtCode1_s_n {
+	FONT-WEIGHT: normal; FONT-SIZE: 11pt; COLOR: #004e61; FONT-FAMILY: ms sans serif, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.txtCode2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #488b9b; FONT-FAMILY: ms sans serif, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.txtCode2_s {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #488b9b; FONT-FAMILY: ms sans serif, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.txtCode2_s_Tin {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #488b9b; FONT-FAMILY: ms sans serif, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.txtCode3_s {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #91ce44; FONT-FAMILY: ms sans serif, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.txtCode3_s_tin {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #003300; FONT-FAMILY: ms sans serif, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.txt33 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #05498a; FONT-FAMILY: ms sans serif, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.txtgray_s {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #666666; FONT-FAMILY: ms sans serif, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.txtsmall {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; FONT-FAMILY: ms sans serif, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.txtblack_small {
+	FONT-WEIGHT: normal; FONT-SIZE: 6pt; COLOR: #000000; FONT-FAMILY: ms sans serif, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.txtblue_small {
+	FONT-WEIGHT: normal; FONT-SIZE: 6pt; COLOR: #229cec; FONT-FAMILY: ms sans serif, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.txtblue {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #000099; FONT-FAMILY: ms sans serif, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.txtblue_s {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #000099; FONT-FAMILY: ms sans serif, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.txtblue_small {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #000099; FONT-FAMILY: ms sans serif, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.txtblue_big {
+	FONT-WEIGHT: bold; FONT-SIZE: 13pt; COLOR: #000099; FONT-FAMILY: ms sans serif, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.txtblack {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #000000; FONT-FAMILY: ms sans serif, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.txtblack_big {
+	FONT-WEIGHT: bold; FONT-SIZE: 13pt; COLOR: #000000; FONT-FAMILY: ms sans serif, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.txtsky_bold {
+	FONT-WEIGHT: bold; FONT-SIZE: 11pt; COLOR: #004e61; FONT-FAMILY: ms sans serif, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.txtsky {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: #0067ff; FONT-FAMILY: ms sans serif, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.txtwhite {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #ffffff; FONT-FAMILY: ms sans serif, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.txtred {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #ff0000; FONT-FAMILY: ms sans serif, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.txtwhite_bold {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #ffffff; FONT-FAMILY: ms sans serif, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.Font_Jobs_H {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #4394d5; FONT-FAMILY: ms sans serif, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.Font_Jobs_DT {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #000000; FONT-FAMILY: ms sans serif, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+BODY {
+	MARGIN: 0px
+}
+#msviRegionIdGraphic {
+	PADDING-LEFT: 7px
+}
+#msviGlobalToolbar {
+	PADDING-LEFT: 1px
+}
+#msviGlobalToolbar A {
+	FONT: 65% Verdana; COLOR: #ffffff; TEXT-DECORATION: none
+}
+.gt0 {
+	BORDER-RIGHT: #1e77d3 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #1e77d3 1px solid; PADDING-LEFT: 4px; FONT-SIZE: 100%; PADDING-BOTTOM: 2px; BORDER-LEFT: #1e77d3 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #1e77d3 1px solid
+}
+.gt1 {
+	BORDER-RIGHT: #a1c6eb 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #a1c6eb 1px solid; PADDING-LEFT: 4px; FONT-SIZE: 100%; BACKGROUND: #3484d7; PADDING-BOTTOM: 2px; BORDER-LEFT: #a1c6eb 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #a1c6eb 1px solid
+}
+.gtsep {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 2px; FONT: 65% Verdana; COLOR: #a1c6eb; PADDING-TOP: 0px
+}
+#msviBanner {
+	TEXT-ALIGN: right
+}
+#msviGlobalSearch {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 6px; FONT: 65% Verdana; COLOR: #000000; PADDING-TOP: 5px; TEXT-ALIGN: left
+}
+#msviSearchForm {
+	MARGIN: -1px 0px 0px
+}
+#msviSearchBox {
+	FONT: 110% Tahoma; WIDTH: 247px; xheight: 18px
+}
+#msviGoButton {
+	PADDING-RIGHT: 0.2em; PADDING-LEFT: 0.2em; PADDING-BOTTOM: 0em; FONT: 110% Tahoma; MARGIN-LEFT: 6px; PADDING-TOP: 0em; POSITION: relative; TOP: 0px
+}
+#msviNoSearch {
+	WIDTH: 271px
+}
+#msviMastheadHR {
+	BACKGROUND: #003499; OVERFLOW: hidden; HEIGHT: 1px
+}
+#msviLocalToolbar {
+	PADDING-RIGHT: 0px; BORDER-TOP: #999 1px solid; PADDING-LEFT: 0px; FONT-SIZE: 100%; BACKGROUND: #f1f1f1; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: #999 1px solid
+}
+#msviLocalToolbar TD {
+	FONT-SIZE: 100%
+}
+#msviLocalToolbar A {
+	FONT: 70% Verdana; COLOR: black; TEXT-DECORATION: none
+}
+.lt0 {
+	BORDER-RIGHT: #f1f1f1 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: #f1f1f1 1px solid; PADDING-LEFT: 6px; BACKGROUND: #f1f1f1; PADDING-BOTTOM: 0px; BORDER-LEFT: #f1f1f1 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #f1f1f1 1px solid
+}
+.lt1 {
+	BORDER-RIGHT: #999 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: #999 1px solid; PADDING-LEFT: 6px; BACKGROUND: #ccc; PADDING-BOTTOM: 0px; BORDER-LEFT: #999 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #999 1px solid
+}
+.ltsep {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 0px; FONT: 70% Verdana; COLOR: #a9a9a9; PADDING-TOP: 0px
+}
+.localToolbar FORM {
+	MARGIN: 0px
+}
+.localToolbar INPUT {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; FONT: 70% Tahoma, Helvetica; MARGIN-RIGHT: 8px; PADDING-TOP: 0px
+}
+#msviHomePageLink {
+	PADDING-LEFT: 2px; WIDTH: 70px
+}
+#msviHomePageLink TD {
+	FONT-SIZE: 100%
+}
+#msviHomePageLink A {
+	BORDER-RIGHT: #f1f1f1 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: #f1f1f1 1px solid; DISPLAY: block; PADDING-LEFT: 6px; BACKGROUND: #f1f1f1; PADDING-BOTTOM: 2px; MARGIN: 0px; BORDER-LEFT: #f1f1f1 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #f1f1f1 1px solid; WHITE-SPACE: nowrap
+}
+#msviHomePageLink A:hover {
+	BORDER-RIGHT: #999 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: #999 1px solid; DISPLAY: block; PADDING-LEFT: 6px; BACKGROUND: #ccc; PADDING-BOTTOM: 2px; MARGIN: 0px; BORDER-LEFT: #999 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #999 1px solid
+}
+#msviFooter {
+	BORDER-TOP: #003499 1px solid; LEFT: 189px; FONT: 70% Tahoma, Helvetica; WIDTH: 596px; POSITION: absolute; TOP: 300px; HEIGHT: 111px
+}
+#msviFooter TD {
+	FONT-SIZE: 100%
+}
+#msviLocalFooter {
+	PADDING-LEFT: 10px; MARGIN: 0px; PADDING-TOP: 8px
+}
+#msviGlobalFooter {
+	PADDING-LEFT: 10px; PADDING-BOTTOM: 13px; MARGIN: 0px; PADDING-TOP: 10px
+}
+#msviFooter A {
+	FONT-WEIGHT: normal; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #03c; MARGIN-RIGHT: 2px
+}
+#msviFooter A:visited {
+	FONT-WEIGHT: normal; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #03c
+}
+#msviFooter A:hover {
+	FONT-WEIGHT: normal; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #f60
+}
+#msviFooter NOBR {
+	COLOR: #a9a9a9; MARGIN-RIGHT: 5px
+}
+.msviPassport {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 10px
+}
+.msviPPSpace {
+	PADDING-RIGHT: 87px
+}
+.cat_menu {
+	FONT-SIZE: 8pt; COLOR: black; FONT-FAMILY: "Microsoft Sans Serif", "MS Sans Serif", Tahoma
+}
+.cat_menu_bg {
+	BACKGROUND-POSITION: center top; BACKGROUND-REPEAT: no-repeat
+}
+.cat_menu A:link {
+	MARGIN-TOP: 1px; PADDING-LEFT: 10px; MARGIN-BOTTOM: 1px; WIDTH: 100%; COLOR: black
+}
+.cat_menu A:visited {
+	MARGIN-TOP: 1px; PADDING-LEFT: 10px; MARGIN-BOTTOM: 1px; WIDTH: 100%; COLOR: black; TEXT-DECORATION: none
+}
+.cat_menu A:hover {
+	BORDER-RIGHT: #c6c7c6 1px solid; BORDER-TOP: #c6c7c6 1px solid; MARGIN-TOP: 0px; PADDING-LEFT: 9px; MARGIN-BOTTOM: 0px; BORDER-LEFT: #c6c7c6 1px solid; WIDTH: 100%; COLOR: #000099; BORDER-BOTTOM: #c6c7c6 1px solid; BACKGROUND-COLOR: #f1f1f1; TEXT-DECORATION: none
+}
+.cat_menu A:active {
+	BORDER-RIGHT: #0000ff 1px solid; BORDER-TOP: #0000ff 1px solid; MARGIN-TOP: 0px; PADDING-LEFT: 9px; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: #0000ff 1px solid; WIDTH: 100%; COLOR: black; PADDING-TOP: 0px; BORDER-BOTTOM: #0000ff 1px solid; BACKGROUND-COLOR: #0000ff; TEXT-DECORATION: none
+}
+.templates_menu_home_disable {
+	BACKGROUND: url(http://www.scoresolutions.co.th/scoresolutions_files/style2/menu-home.gif)
+}
+.templates_menu_profile_disable {
+	BACKGROUND: url(http://www.scoresolutions.co.th/scoresolutions_files/style2/menu-home.gif)
+}
+.templates_menu_product_disable {
+	BACKGROUND: url(http://www.scoresolutions.co.th/scoresolutions_files/style2/menu-home.gif)
+}
+.templates_menu_services_disable {
+	BACKGROUND: url(http://www.scoresolutions.co.th/scoresolutions_files/style2/menu-home.gif)
+}
+.templates_menu_client_disable {
+	BACKGROUND: url(http://www.scoresolutions.co.th/scoresolutions_files/style2/menu-home.gif)
+}
+.templates_menu_contactus_disable {
+	BACKGROUND: url(http://www.scoresolutions.co.th/scoresolutions_files/style2/menu-home.gif)
+}
+.templates_menu_foot_disable {
+	BACKGROUND: url(http://www.scoresolutions.co.th/scoresolutions_files/style2/menu-home.gif)
+}
+.button_more50px {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 10px; BACKGROUND: url(http://www.scoresolutions.co.th/2004/images/style2/more50px.gif); BORDER-BOTTOM-WIDTH: 0px; WIDTH: 50px; CURSOR: hand; COLOR: #000000; FONT-FAMILY: "Verdana"; HEIGHT: 16px; BORDER-RIGHT-WIDTH: 0px
+}
+.button_more60px {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 10px; BACKGROUND: url(http://www.scoresolutions.co.th/2004/images/style2/more60px.gif); BORDER-BOTTOM-WIDTH: 0px; WIDTH: 60px; CURSOR: hand; COLOR: #000000; FONT-FAMILY: "Verdana"; HEIGHT: 16px; BORDER-RIGHT-WIDTH: 0px
+}
+.button_more70px {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 10px; BACKGROUND: url(http://www.scoresolutions.co.th/2004/images/style2/more70px.gif); BORDER-BOTTOM-WIDTH: 0px; WIDTH: 70px; CURSOR: hand; COLOR: #000000; FONT-FAMILY: "Verdana"; HEIGHT: 16px; BORDER-RIGHT-WIDTH: 0px
+}
+.invert_button_more70px {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 10px; BACKGROUND: url(http://www.scoresolutions.co.th/2004/images/style2/invert_more70px.gif); BORDER-BOTTOM-WIDTH: 0px; WIDTH: 70px; CURSOR: hand; COLOR: #000000; FONT-FAMILY: "Verdana"; HEIGHT: 16px; BORDER-RIGHT-WIDTH: 0px
+}
+.templates_topgraphic {
+	BACKGROUND: url(http://www.scoresolutions.co.th/2004/images/style2/top-bg.gif)
+}
+.templates_mainpage_box1_bar {
+	BACKGROUND: url(http://www.scoresolutions.co.th/2004/images/style2/mainpage-box1-bar.gif)
+}
+.templates_mainpage_box1_bg {
+	BACKGROUND-COLOR: #4444d1
+}
+.templates_mainpage_box1_foot {
+	BACKGROUND: url(http://www.scoresolutions.co.th/2004/images/style2/mainpage-box1-foot.gif)
+}
+.templates_mainpage_box2_bar {
+	BACKGROUND: url(http://www.scoresolutions.co.th/2004/images/style2/mainpage-box2-bar.gif)
+}
+.templates_mainpage_box2_bg {
+	BACKGROUND-COLOR: #ffffff
+}
+.templates_mainpage_box3_bar {
+	BACKGROUND: url(http://www.scoresolutions.co.th/2004/images/style2/mainpage-box3-bar.gif)
+}
+.templates_mainpage_box3_bg {
+	BACKGROUND-COLOR: #e7e3e7
+}
+.templates_menu_home {
+	BACKGROUND: url(http://www.scoresolutions.co.th/scoresolutions_files/style2/menu-home.gif)
+}
+.templates_menu_profile {
+	BACKGROUND: url(http://www.scoresolutions.co.th/2004/images/style2/menu-profile.gif)
+}
+.templates_menu_product {
+	BACKGROUND: url(http://www.scoresolutions.co.th/2004/images/style2/menu-product.gif)
+}
+.templates_menu_services {
+	BACKGROUND: url(http://www.scoresolutions.co.th/2004/images/style2/menu-ourservices.gif)
+}
+.templates_menu_client {
+	BACKGROUND: url(http://www.scoresolutions.co.th/2004/images/style2/menu-ourclient.gif)
+}
+.templates_menu_contactus {
+	BACKGROUND: url(http://www.scoresolutions.co.th/2004/images/style2/menu-contactus.gif)
+}
+.templates_page_menu_foot {
+	BACKGROUND: url(http://www.scoresolutions.co.th/2004/images/style2/page-menu-foot.gif)
+}
+.templates_page_center_bg {
+	BACKGROUND-COLOR: #71a0d6
+}
+.templates_page_right_bg {
+	BACKGROUND-COLOR: #f0f3f3
+}
+.templates_page_right_color1 {
+	BACKGROUND-COLOR: #3868b5
+}
+.templates_page_right_color2 {
+	BACKGROUND-COLOR: #254b9d
+}
+.templates_page_shadow1 {
+	BACKGROUND: url(http://www.scoresolutions.co.th/2004/images/style2/paper-shadow1.gif)
+}
+.templates_page_shadow2 {
+	BACKGROUND: url(http://www.scoresolutions.co.th/2004/images/style2/paper-shadow2.gif)
+}
+.templates_page_shadow3 {
+	BACKGROUND: url(http://www.scoresolutions.co.th/2004/images/style2/paper-shadow3.gif)
+}
+.templates_page_shadow4 {
+	BACKGROUND: url(http://www.scoresolutions.co.th/2004/images/style2/paper-shadow4.gif)
+}
+.templates_page_shadow5 {
+	BACKGROUND: url(http://www.scoresolutions.co.th/2004/images/style2/paper-shadow5.gif)
+}
+.templates_bar_dbdot {
+	FONT-WEIGHT: bold; BACKGROUND: url(http://www.scoresolutions.co.th/2004/images/style2/bar-db-dot.gif); COLOR: #4444d1
+}
+.templates_bar_dbdot_bullet {
+	BACKGROUND: url(http://www.scoresolutions.co.th/2004/images/style2/bar-db-dot-bullet.gif)
+}
+A.link_templates_page_submenu1:link {
+	FONT-WEIGHT: bold; COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.link_templates_page_submenu1:visited {
+	FONT-WEIGHT: bold; COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.link_templates_page_submenu1:active {
+	FONT-WEIGHT: bold; COLOR: #ff9900; TEXT-DECORATION: none
+}
+A.link_templates_page_submenu1:hover {
+	FONT-WEIGHT: bold; COLOR: #ff9900; TEXT-DECORATION: none
+}
+A.link_templates_page_submenu2:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.link_templates_page_submenu2:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.link_templates_page_submenu2:active {
+	COLOR: #ff9900; TEXT-DECORATION: none
+}
+A.link_templates_page_submenu2:hover {
+	COLOR: #ff9900; TEXT-DECORATION: none
+}
+A:link {
+	COLOR: #0000ff; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #000099; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #000099; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #000099; TEXT-DECORATION: none
+}
+.news {
+	FONT-SIZE: 11px; COLOR: #0000ff; FONT-FAMILY: Tahoma
+}
+A.news {
+	FONT-SIZE: 11px; COLOR: #000099; FONT-FAMILY: Tahoma
+}
+A.news:visited {
+	FONT-SIZE: 11px; COLOR: #000099; FONT-FAMILY: Tahoma
+}
+A.news:hover {
+	COLOR: #000099; TEXT-DECORATION: none
+}
+A.board {
+	COLOR: black; TEXT-DECORATION: none
+}
+A.board:visited {
+	COLOR: black; TEXT-DECORATION: none
+}
+A.board:active {
+	COLOR: #339933; TEXT-DECORATION: none
+}
+A.board:hover {
+	COLOR: #339933; TEXT-DECORATION: none
+}
+TD {
+	FONT: 8pt/12pt Tahoma,MS Sans Serif; COLOR: #676767
+}
+P {
+	FONT: 8pt/12pt Tahoma,Ms Sans Serif; COLOR: #676767
+}
+UL {
+	FONT: 8pt/12pt Tahoma,Ms Sans Serif; COLOR: #676767
+}
+OL {
+	FONT: 8pt/12pt Tahoma,Ms Sans Serif; COLOR: #676767
+}
+.ttb {
+	FONT: 13pt/16pt Tahoma,Ms Sans Serif; COLOR: #0f9710
+}
+.ttb1 {
+	FONT: 12pt/16pt Tahoma,Ms Sans Serif; COLOR: #0f9710
+}
+.ttt {
+	FONT: 13pt/16pt Tahoma,Ms Sans Serif; COLOR: #ffae01
+}
+.ttt1 {
+	FONT: 12pt/16pt Tahoma,Ms Sans Serif; COLOR: #ffae01
+}
+.left {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; MARGIN: 5px 10px 0px 25px; COLOR: #4f4f4f; FONT-FAMILY: Tahoma,Verdana,Arial
+}
+.normal {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #4f4f4f; FONT-FAMILY: MS Sans Serif,Tahoma,Verdana,Arial
+}
+.member {
+	FONT-SIZE: 11px; PADDING-BOTTOM: 5px; MARGIN: 5px 10px 0px; COLOR: #000000; FONT-FAMILY: Tahoma,Verdana,Arial
+}
+.small {
+	FONT: 8pt/11pt MS Sans Serif,Arial; COLOR: #7a7a7a
+}
+.line {
+	FONT: 7pt/11pt MS Sans Serif,Arial; COLOR: #cccccc
+}
+BODY {
+	FONT: 7pt/8pt MS Sans Serif,Arial
+}
+A.title:link {
+	FONT: 8pt/12pt Tahoma,MS Sans Serif,Helv,Helvetica; TEXT-DECORATION: none
+}
+A.title:visited {
+	FONT: 8pt/12pt Tahoma,MS Sans Serif,Helv,Helvetica; TEXT-DECORATION: none
+}
+A.title:hover {
+	FONT: 8pt/12pt Tahoma,MS Sans Serif,Helv,Helvetica; COLOR: #ff9900; TEXT-DECORATION: underline
+}
+A.title:active {
+	FONT: 8pt/12pt Tahoma,MS Sans Serif,Helv,Helvetica; COLOR: #c56916; TEXT-DECORATION: underline
+}
+A:link {
+	FONT: 8pt/12pt Tahoma,MS Sans Serif,Helv,Helvetica; COLOR: #2979c2; TEXT-DECORATION: none
+}
+A:visited {
+	FONT: 8pt/12pt Tahoma,MS Sans Serif,Helv,Helvetica; COLOR: #2979c2; TEXT-DECORATION: none
+}
+A:hover {
+	FONT: 8pt/12pt Tahoma,MS Sans Serif,Helv,Helvetica; COLOR: #124e85; TEXT-DECORATION: none
+}
+A:active {
+	FONT: 8pt/12pt Tahoma, MS Sans Serif,Helv,Helvetica; COLOR: #2979c2; TEXT-DECORATION: underline
+}
+.mput1 {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana,Arial; BACKGROUND-COLOR: #f6f5f6
+}
+.mput {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana,Arial
+}
+.box {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 0px solid; FONT-SIZE: 10px; BORDER-LEFT: #cccccc 0px solid; COLOR: #7a7a7a; BORDER-BOTTOM: #cccccc 1px solid
+}
+.ll {
+	BORDER-RIGHT: #cccccc 0px solid; BORDER-TOP: #cccccc 0px solid; FONT-SIZE: 10px; BORDER-LEFT: #000000 1px solid; COLOR: #7a7a7a; BORDER-BOTTOM: #cccccc 0px solid
+}
+.box_order {
+	BORDER-RIGHT: #1885a9 1px solid; BORDER-TOP: #1885a9 1px solid; FONT-SIZE: 10px; BORDER-LEFT: #1885a9 1px solid; COLOR: #7a7a7a; BORDER-BOTTOM: #1885a9 1px solid
+}
+.template {
+	BORDER-RIGHT: #dcdbdf 1px solid; BORDER-TOP: #dcdbdf 1px solid; FONT-SIZE: 10px; BORDER-LEFT: #dcdbdf 1px solid; COLOR: #7a7a7a; BORDER-BOTTOM: #dcdbdf 1px solid
+}
+BODY {
+	SCROLLBAR-ARROW-COLOR: #ffffff; SCROLLBAR-TRACK-COLOR: #ffffff; SCROLLBAR-DARKSHADOW-COLOR: #cccccc; SCROLLBAR-BASE-COLOR: #cccccc
+}
+.checkbox {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 10px; BORDER-LEFT-COLOR: #444444; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: #444444; COLOR: #333333; BORDER-TOP-COLOR: #000000; FONT-FAMILY: "MS Sans Serif"; BACKGROUND-COLOR: #e4eefd; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: #000000
+}
+.boxleft_new {
+	BORDER-RIGHT: #f0a0d6 1px solid; BORDER-TOP: #000000 0px solid; FONT-SIZE: 10px; BORDER-LEFT: #f0a0d6 1px solid; COLOR: #7a7a7a; BORDER-BOTTOM: #3674d9 0px solid
+}
+.box1_1 {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; BORDER-LEFT: #999999 1px solid; BORDER-BOTTOM: #999999 1px solid
+}

@@ -1,0 +1,20 @@
+select a.project_id,a.project_code+':'+ a.project_name +'->' + b.Client_name from of_project a,of_client b where a.project_id in (select project_id from OF_ProjectTeam where member_id=" & Session(Member_ID) & ") and  b.Client_id in (Select Client_id from OF_ProjectBranch where Project_id=a.project_id )
+
+
+func.cmdsql("Update of_member set Allow_menu = replace(Allow_menu,',44','')  where allow_menu <> '*' and member_id not in (select member_id from OF_ProjectManager)and Allow_menu like '%,44%';Update of_member set Allow_menu = Allow_menu+',44'  where allow_menu <> '*' and member_id in (select member_id from OF_ProjectManager)and Allow_menu not like '%,44%';")
+
+<add name="MyConn" connectionString="Data Source=192.168.0.1;Initial Catalog=eoffice;Persist Security Info=True;User ID=uba_user;Password=BAN$DA!" providerName="System.Data.SqlClient"/>
+
+
+<add name="MyConn" connectionString="Data Source=Mylocalhost;Initial Catalog=eOffice;Integrated Security=True" providerName="System.Data.SqlClient"/>
+
+
+'-----------------  Delete Project ------------------------
+delete from of_project;
+delete from OF_ProjectBranch;
+delete from OF_ProjectCusManager;
+delete from OF_ProjectCusLeader;
+delete from OF_ProjectCusContract;
+delete from OF_ProjectManager;
+delete from OF_ProjectLeader;
+delete from OF_ProjectTeam;

@@ -1,0 +1,121 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage_Basic_Sub.master.vb" Inherits="MasterPage_Basic_sub" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <link href="__css/main.css" rel="stylesheet" type="text/css" />
+    <link href="__js/dtree/dtree.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="__js/dtree/dtree.js"></script>
+    <script type="text/javascript" src="__js/datetimepicker_css.js"></script>
+    <!--#include file="__js/clenda.html"-->    
+    <title>Etime Sheet</title>
+</head>
+<body>
+    <form id="frm" runat="server">
+    <div>
+    <table width="100%" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><img src="__images/scorelogo.jpg" width="800" height="80" /></td>
+  </tr>
+</table>
+    <table width="100%"><tr><td bgcolor="#0099cc">
+        &nbsp;</td> </tr>
+</table>
+    <table>
+    <tr><td></td><td></td><td>
+        &nbsp;<asp:Label ID="lblheaderMenulink" runat="server" Width="100%" Visible="False"></asp:Label></td></tr>
+        <tr>
+            <td rowspan="2" align="left" valign="top" colspan="2" style="width: 204px; height: 250px">
+                <asp:PlaceHolder ID="mnHolder" runat="server" EnableViewState="true"></asp:PlaceHolder>
+                &nbsp; &nbsp;<table cellpadding="0" cellspacing="0" width="200">
+                    <tbody>
+                        <tr>
+                            <td align="left" height="1" valign="top" width="1">
+                                <img alt="" height="10" src="__images/LineFrme01.gif" width="10" /></td>
+                            <td background="__images/LineFrme02.gif">
+                            </td>
+                            <td align="right" valign="top" width="1">
+                                <img alt="" height="10" src="__images/LineFrme03.gif" width="10" /></td>
+                        </tr>
+                        <tr>
+                            <td background="__images/LineFrme08.gif" style="height: 70px" >
+                                &nbsp;</td>
+                            <td align="left" valign="top" style="height: 70px">
+                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <tbody>
+                                        <tr>
+                                            <td style="height: 15px" align= "right">
+                                                Today:</td>
+                                            <td align="left"  width="165" style="height: 15px">
+                                                &nbsp;&nbsp;
+                                                <%=Format(Date.Today, "dd-MMM-yyyy")%>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="right" style="height: 15px">
+                                                User:</td>
+                                            <td align="left" style="height: 15px" >
+                                                &nbsp;&nbsp;
+                                                <%=Session("username")%>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="right" style="height: 14px">
+                                                Group:</td>
+                                            <td align="left"  style="height: 14px">
+                                                &nbsp;&nbsp;
+                                                <%=session("gname") %>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="right">
+                                                Stamp:</td>
+                                            <td align="left" >
+                                                &nbsp;&nbsp;
+                                                <%=Session("TimeStamp")%></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                            <td background="__images/LineFrme04.gif" style="height: 70px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top">
+                                <img alt="" height="10" src="__images/LineFrme07.gif" width="10" /></td>
+                            <td background="__images/LineFrme06.gif">
+                            </td>
+                            <td valign="top">
+                                <img alt="" height="10" src="__images/LineFrme05.gif" width="10" /></td>
+                        </tr>
+                    </tbody>
+                </table>
+               </td>
+            <td width=100%  height= 100% class="mianContentBorder" align="left" valign="top">
+            &nbsp;
+                <asp:ContentPlaceHolder ID="cphMain" runat="server">
+                </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+        <tr>
+        </tr>
+    </table>
+    <table width="100%" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td bgcolor="#CCCCCC"><div align="center">
+        Copyright©2007 Score Solutions Co., Ltd All Rights Reserved , All Right Reserved : <a href="mailto:Webmaster@scoresolutions.co.th">
+            mailto:Webmaster@scoresolutions.co.th</a></div></td>
+  </tr>
+</table>
+    </div>
+    </form>
+</body>
+</html>
+
+
+
+
+
+
+
